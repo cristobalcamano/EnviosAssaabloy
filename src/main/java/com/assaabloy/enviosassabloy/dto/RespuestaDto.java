@@ -4,21 +4,14 @@ public class RespuestaDto {
 
     private String mensaje;
     private boolean validar;
-    private Object object;
+    
+    
     public RespuestaDto() {
     }
 
     public RespuestaDto(String mensaje, boolean validar) {
         this.mensaje = mensaje;
         this.validar = validar;
-    }
-
-    public Object getObject() {
-        return object;
-    }
-
-    public void setObject(Object object) {
-        this.object = object;
     }
 
     public String getMensaje() {
@@ -36,4 +29,11 @@ public class RespuestaDto {
     public void setValidar(boolean validar) {
         this.validar = validar;
     }
+
+	@Override
+	public String toString() {
+		return "RespuestaDto [mensaje=" + mensaje + ", validar=" + validar + "]";
+	}
+    
+    
 }

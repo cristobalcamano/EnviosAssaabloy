@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.03.22 a las 07:51:13 AM COT 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.assaabloy.enviosassaabloy.wsdl.blu"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaUltimoEstadoGuiasXml">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaUltimoEstadoGuiasXml"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaUltimoEstadoGuiasXmlResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaUltimoEstadoGuiasXmlResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaPathImgGuiasXml">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaPathImgGuiasXml"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaPathImgGuiasXmlResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaPathImgGuiasXmlResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaPathImgGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaPathImgGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaPathImgGuiaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaPathImgGuiaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaPathImgGuiaByDocumentoExterno">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaPathImgGuiaByDocumentoExterno"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaPathImgGuiaByDocumentoExternoResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaPathImgGuiaByDocumentoExternoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CrearGuiaBlulogistics">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.CrearGuiaBlulogistics"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CrearGuiaBlulogisticsResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.CrearGuiaBlulogisticsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EError">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EError"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CrearGuiaBlulogisticsV2">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.CrearGuiaBlulogisticsV2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EGuiaV2">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EGuiaV2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CrearGuiaBlulogisticsV2Response">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.CrearGuiaBlulogisticsV2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfEResponseGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfEResponseGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarCuentas">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarCuentas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfECuentasCliente">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfECuentasCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarCuentasResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarCuentasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarCiudades">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarCiudades"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfECiudades">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfECiudades"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarCiudadesResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarCiudadesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarRutas">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarRutas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfERutasOrigenDestino">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfERutasOrigenDestino"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarRutasResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarRutasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarRuta">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarRuta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ERutasOrigenDestino">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ERutasOrigenDestino"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SolicitarRutaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolicitarRutaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getValoresLiquidacion">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetValoresLiquidacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EValorFacturado">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EValorFacturado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getValoresLiquidacionResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetValoresLiquidacionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaMaestroEstados">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaMaestroEstados"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaMaestroEstadosResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaMaestroEstadosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfEEstadoPQ">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfEEstadoPQ"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaEstadosGuiasUltimaHora">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaEstadosGuiasUltimaHora"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaEstadosGuiasUltimaHoraResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaEstadosGuiasUltimaHoraResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfEEstadoGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfEEstadoGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaEtiquetaPdf">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaEtiquetaPdf"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaEtiquetaPdfResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaEtiquetaPdfResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiaPdf">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiaPdf"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiaPdfResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiaPdfResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiaXRangoPdf">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiaXRangoPdf"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiaXRangoPdfResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiaXRangoPdfResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EGuiaCliente">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EGuiaCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiaXFecha">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiaXFecha"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiaXFechaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiaXFechaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfEGuiaCliente">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfEGuiaCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDatosEtiqueta">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetDatosEtiqueta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EDatosEtiqueta">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EDatosEtiqueta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetDatosEtiquetaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetDatosEtiquetaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConfirmarGuiasPredespachadas">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConfirmarGuiasPredespachadas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConfirmarGuiasPredespachadasResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConfirmarGuiasPredespachadasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfEError">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfEError"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getPreLiquidacion">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetPreLiquidacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:viewLiquidacion">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ViewLiquidacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getPreLiquidacionResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetPreLiquidacionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetGeoreferenciacion">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetGeoreferenciacion"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GetGeoreferenciacionResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.GetGeoreferenciacionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidarUsuarioMI">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ValidarUsuarioMI"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidarUsuarioMIResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ValidarUsuarioMIResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RelacionDespacho">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.RelacionDespacho"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfSolex_View_RelacionDespacho">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfSolexViewRelacionDespacho"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RelacionDespachoResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.RelacionDespachoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Cotizador">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.Cotizador"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CotizadorEstandarResponseViewModel">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.CotizadorEstandarResponseViewModel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CotizadorResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.CotizadorResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaDatosEtiqueta">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaDatosEtiqueta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfInt">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfInt"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaDatosEtiquetaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaDatosEtiquetaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfStikerModel">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfStikerModel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidarDatosEtiqueta">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ValidarDatosEtiqueta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ValidarDatosEtiquetaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ValidarDatosEtiquetaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiasXSalida">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiasXSalida"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ConsultaGuiasXSalidaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ConsultaGuiasXSalidaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfSOLEX_Sp_Report_PlanillasxGuiaClienteFinal_Result">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfSOLEXSpReportPlanillasxGuiaClienteFinalResult"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AnulacionGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.AnulacionGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AnulacionGuiaResponse">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.AnulacionGuiaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfString">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfString"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EResponseGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EResponseGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ECuentasCliente">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ECuentasCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ECiudades">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ECiudades"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EEstadoPQ">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EEstadoPQ"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EEstadoGuia">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EEstadoGuia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Solex_View_RelacionDespacho">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SolexViewRelacionDespacho"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityObject">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EntityObject"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:StructuralObject">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.StructuralObject"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityKey">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EntityKey"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfEntityKeyMember">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ArrayOfEntityKeyMember"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:EntityKeyMember">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.EntityKeyMember"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:StikerModel">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.StikerModel"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SOLEX_Sp_Report_PlanillasxGuiaClienteFinal_Result">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.SOLEXSpReportPlanillasxGuiaClienteFinalResult"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ComplexObject">
+                  
+            <class ref="com.assaabloy.enviosassaabloy.wsdl.blu.ComplexObject"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>

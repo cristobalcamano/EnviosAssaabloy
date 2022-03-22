@@ -1,7 +1,8 @@
 package com.assaabloy.enviosassabloy.api;
 
 import com.assaabloy.enviosassabloy.dto.EnvioDto;
-import com.assaabloy.enviosassabloy.services.EnvioServices;
+import com.assaabloy.enviosassabloy.service.EnvioService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class EnvioApi {
     @Autowired
-    private EnvioServices envioServices;
+    private EnvioService envioServices;
 
     @GetMapping("")
     public ResponseEntity<?>listarEnvios(){
